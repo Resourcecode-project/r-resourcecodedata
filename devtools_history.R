@@ -1,4 +1,5 @@
 usethis::create_tidy_package("resourcecodedata")
+usethis::use_build_ignore("devtools_history.R")
 usethis::use_gpl3_license()
 
 # Data is taken from \\\\datawork\\datawork-resourcecode\\EFTP\\RESULTS\\stats\\
@@ -33,3 +34,14 @@ usethis::use_data(
 
 tools::resaveRdaFiles("data/", compress = "auto",version = 3)
 tools::checkRdaFiles("data/")
+
+usethis::use_build_ignore("dev/")
+usethis::use_git()
+usethis::use_github()
+
+#Now set up pkgdown to have a nice page
+usethis::use_pkgdown()
+pkgdown::build_site()
+usethis::use_pkgdown_github_pages()
+
+attachment::att_amend_desc()
