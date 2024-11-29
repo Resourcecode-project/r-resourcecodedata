@@ -17,3 +17,4 @@ jobs:
           token: "${{ secrets.DRAT_TOKEN }}"
           commit_message: "Automated update {resourcecodedata}"
           commit_email: "nicolas.raillard@ifremer.fr"
+          archive: true
