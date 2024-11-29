@@ -1,0 +1,20 @@
+on:
+  push:
+    branches:
+      - 'main'
+    paths:
+      - 'DESCRIPTION'
+  workflow_dispatch:
+
+jobs:
+  drat-upload:
+    runs-on: ubuntu-20.04
+    name: Drat Upload
+    steps:
+      - uses: mikemahoney218/upload-to-drat-repo@v0.3
+        with:
+          drat_repo: 'Resourcecode-project/drat'
+          token: "${{ secrets.DRAT_TOKEN }}"
+          commit_message: "Automated update {resourcecodedata}"
+          commit_email: "nicolas.raillard@ifremer.fr"
+          archive: true
