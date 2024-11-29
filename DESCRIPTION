@@ -1,12 +1,9 @@
 Package: resourcecodedata
 Title: Data package with the Resourcecode database configuration data
 Version: 0.1.0
-Authors@R: c(
+Authors@R: 
     person("Nicolas", "Raillard", , "nicolas.raillard@ifremer.fr", role = c("aut", "cre"),
-           comment = c(ORCID = "0000-0003-3385-5104")),
-    person("IFREMER", role = c("cph", "fnd"),
-           comment = "https://www.ifremer.fr")
-  )
+           comment = c(ORCID = "0000-0003-3385-5104"))
 Description: Includes Resourcecode hindcast database (see
     <https://resourcecode.ifremer.fr>) configuration data: nodes locations
     for both the sea-state parameters and the spectra data; and examples

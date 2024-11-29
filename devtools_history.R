@@ -45,3 +45,8 @@ pkgdown::build_site()
 usethis::use_pkgdown_github_pages()
 
 attachment::att_amend_desc()
+
+devtools::build()
+devtools::build(binary = T)
+
+remotes::install_github("eddelbuettel/drat")
