@@ -5,13 +5,10 @@
 \alias{rscd_coastline}
 \title{Resourcecode coastline}
 \format{
-\subsection{\code{rscd_coastline}}{
-
 A data frame with 24403 rows and 3 columns:
 \describe{
 \item{longitude,latitude}{coordinates of the border line}
 \item{depth}{depth of the border.}
-}
 }
 }
 \source{

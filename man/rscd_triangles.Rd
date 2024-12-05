@@ -5,13 +5,10 @@
 \alias{rscd_triangles}
 \title{Resourcecode triangles}
 \format{
-\subsection{\code{rscd_triangles}}{
-
 A matrix with 3 rows and 566506 columns:
 \describe{
 \item{rows}{verticies of the triangles}
 \item{columns}{node number of each vertices}
-}
 }
 }
 \source{

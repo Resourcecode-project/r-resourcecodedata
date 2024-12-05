@@ -5,8 +5,6 @@
 \alias{rscd_2d_spectra}
 \title{Resourcecode 2D directional wave spectra}
 \format{
-\subsection{\code{rscd_2d_spectra}}{
-
 A list with 9 elements:
 \describe{
 \item{longitude}{Longitude}
@@ -30,7 +28,6 @@ A list with 9 elements:
 \item{curdir}{Current direction, going to}
 }}
 \item{station}{Station name}
-}
 }
 }
 \source{

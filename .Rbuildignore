@@ -6,3 +6,4 @@
 ^data-raw$
 ^dev$
 ^devtools_history\.R$
+^\.github$

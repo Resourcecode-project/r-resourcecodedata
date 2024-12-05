@@ -5,14 +5,11 @@
 \alias{rscd_variables}
 \title{Resourcecode variable list}
 \format{
-\subsection{\code{rscd_variables}}{
-
 A data frame with 88 rows and 3 columns:
 \describe{
 \item{name}{short name of the variable}
 \item{longname}{Full name}
 \item{unit}{Unit}
-}
 }
 }
 \source{

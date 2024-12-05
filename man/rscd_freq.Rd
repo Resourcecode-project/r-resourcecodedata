@@ -5,10 +5,7 @@
 \alias{rscd_freq}
 \title{Resourcecode frequency vector of 1D and 2D spectra}
 \format{
-\subsection{\code{rscd_freq}}{
-
-An array 36 elements with the frequencies values
-}
+A vector 36 elements with the frequencies values
 }
 \source{
 User Manual of the RESOURCECODE database

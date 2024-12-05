@@ -5,8 +5,6 @@
 \alias{rscd_1d_spectra}
 \title{Resourcecode 1D directional wave spectra}
 \format{
-\subsection{\code{rscd_1d_spectra}}{
-
 A list with 12 elements:
 \describe{
 \item{longitude}{Longitude}
@@ -37,7 +35,6 @@ A list with 12 elements:
 \item{spr}{Mean directional spreading}
 }}
 \item{station}{Station name}
-}
 }
 }
 \source{

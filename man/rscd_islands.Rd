@@ -5,14 +5,11 @@
 \alias{rscd_islands}
 \title{Resourcecode islands coastline}
 \format{
-\subsection{\code{rscd_islands}}{
-
 A data frame with 24403 rows and 3 columns:
 \describe{
 \item{longitude,latitude}{coordinates of the border line}
 \item{depth}{depth of the border}
 \item{ID}{Unique number used to identify the island}
-}
 }
 }
 \source{

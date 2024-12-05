@@ -5,15 +5,12 @@
 \alias{rscd_field}
 \title{Resourcecode FIELD grid}
 \format{
-\subsection{\code{rscd_field}}{
-
 A data frame with 328,030 rows and 5 columns:
 \describe{
 \item{node}{node number}
 \item{longitude, latitude}{coordinates of the nodes}
 \item{depth}{depth of the node}
 \item{d50}{Bottom sediment types}
-}
 }
 }
 \source{
