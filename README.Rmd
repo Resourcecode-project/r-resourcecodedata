@@ -27,4 +27,10 @@ You can install the development version of `{resourcecodedata}` like so, thanks 
 ``` r
 install.packages("resourcecodedata",type = "source",repos = "resourcecode-project.github.io/drat")
 ```
+or from install from
+[r-universe.](https://resourcecode-project.r-universe.dev/resourcecodedata).
+
+```{r}
+install.packages("resourcecodedata", repos = c("https://resourcecode-project.r-universe.dev", "https://cloud.r-project.org"))
+```
 
