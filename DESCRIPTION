@@ -1,6 +1,6 @@
 Package: resourcecodedata
 Title: Data package with the Resourcecode database configuration data
-Version: 0.2.0
+Version: 1.0.0
 Authors@R: 
     person("Nicolas", "Raillard", , "nicolas.raillard@ifremer.fr", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0003-3385-5104"))
@@ -13,8 +13,7 @@ Description: Includes Resourcecode hindcast database (see
     regional sources and co-funding by the European Union's Horizon 2020
     research and innovation program.
 License: GPL (>= 3)
-URL: https://github.com/Resourcecode-project/r-resourcecodedata
-    https://resourcecode-project.r-universe.dev/resourcecodedata
+URL: https://github.com/Resourcecode-project/r-resourcecodedata, https://resourcecode-project.r-universe.dev/resourcecodedata, https://resourcecode-project.github.io/r-resourcecodedata, https://resourcecode-project.github.io/r-resourcecodedata/
 BugReports: 
     https://github.com/Resourcecode-project/r-resourcecodedata/issues
 Depends: 

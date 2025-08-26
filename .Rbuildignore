@@ -7,3 +7,6 @@
 ^dev$
 ^devtools_history\.R$
 ^\.github$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$

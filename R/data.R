@@ -89,7 +89,7 @@
 #' <https://archimer.ifremer.fr/doc/00751/86306/>
 "rscd_triangles"
 
-#' Resourcecode frequency vector of 1D and 2D spectra
+#' Resourcecode central frequency vector of 1D and 2D spectra
 #'
 #' The wave spectrum discretization considers 36 frequencies, starting from
 #' 0.0339 Hz up to 0.9526 Hz with a frequency increment factor of 1.1
@@ -99,6 +99,28 @@
 #' @source User Manual of the RESOURCECODE database
 #' <https://archimer.ifremer.fr/doc/00751/86306/>
 "rscd_freq"
+
+#' Resourcecode lower frequency vector of 1D and 2D spectra
+#'
+#' The wave spectrum discretization considers 36 frequencies, starting from
+#' 0.0339 Hz up to 0.9526 Hz with a frequency increment factor of 1.1
+#'
+#' @format A vector 36 elements with the frequencies values
+#'
+#' @source User Manual of the RESOURCECODE database
+#' <https://archimer.ifremer.fr/doc/00751/86306/>
+"rscd_frequency1"
+
+#' Resourcecode higher frequency vector of 1D and 2D spectra
+#'
+#' The wave spectrum discretization considers 36 frequencies, starting from
+#' 0.0339 Hz up to 0.9526 Hz with a frequency increment factor of 1.1
+#'
+#' @format A vector 36 elements with the frequencies values
+#'
+#' @source User Manual of the RESOURCECODE database
+#' <https://archimer.ifremer.fr/doc/00751/86306/>
+"rscd_frequency2"
 
 #' Resourcecode directional bins
 #'

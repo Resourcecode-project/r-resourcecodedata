@@ -3,7 +3,7 @@
 \docType{data}
 \name{rscd_freq}
 \alias{rscd_freq}
-\title{Resourcecode frequency vector of 1D and 2D spectra}
+\title{Resourcecode central frequency vector of 1D and 2D spectra}
 \format{
 A vector 36 elements with the frequencies values
 }

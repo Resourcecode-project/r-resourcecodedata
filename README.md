@@ -4,9 +4,10 @@
 # resourcecodedata
 
 This a data-only R package. It contains the **Resourcecode** hindcast
-database configuration data: nodes locations for both the sea-state
-parameters, examples of time series of 1D and 2D surface elevation
-variance spectral density, etc.
+database configuration data, that is used to run the WWIIIⓇ model: nodes
+locations for both the sea-state parameters, examples of time series of
+1D and 2D surface elevation variance spectral density, etc. These are
+static data that will **never** be updated.
 
 For more on using these data, see the GitHub repository for the
 [resourcecode](https://github.com/Resourcecode-project/r-resourcecode)
