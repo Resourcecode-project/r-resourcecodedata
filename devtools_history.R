@@ -62,10 +62,11 @@ usethis::use_data(
 )
 
 
-tools::resaveRdaFiles("data/", compress = "auto",version = 3)
+tools::resaveRdaFiles("data/", compress = "xz",version = 3)
 tools::checkRdaFiles("data/")
 
 usethis::use_build_ignore("dev/")
+usethis::use_git_ignore("dev/")
 usethis::use_git()
 usethis::use_github()
 
@@ -74,7 +75,7 @@ usethis::use_pkgdown()
 pkgdown::build_site()
 usethis::use_pkgdown_github_pages()
 
-attachment::att_amend_desc()
+attachment::att_amend_desc(update.config = T)
 
 devtools::document()
 devtools::run_examples()
