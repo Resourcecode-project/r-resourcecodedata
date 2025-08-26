@@ -23,7 +23,7 @@ For more on using these data, see the GitHub repository for the [resourcecode](h
 
 ## Installation
 
-You can install the development version of `{resourcecodedata}` like so, thanks to the `{drat}`package:
+You can install the development version of `{resourcecodedata}` like so, thanks to the `{drat}` package:
 
 ```{r}
 install.packages("resourcecodedata",type = "source",repos = "resourcecode-project.github.io/drat")

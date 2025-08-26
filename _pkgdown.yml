@@ -1,4 +1,5 @@
 url: https://resourcecode-project.github.io/r-resourcecodedata/
 template:
   bootstrap: 5
-
+  bootswatch: litera
+  light-switch: true
