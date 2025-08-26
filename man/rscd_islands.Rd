@@ -22,6 +22,6 @@ rscd_islands
 \description{
 This data contains the coastline of the islands used to run the
 RESOURCECODE hindcast, as data separated from the mainland.
-This will be mainly used for ploting purpose.
+This will be mainly used for plotting purpose.
 }
 \keyword{datasets}

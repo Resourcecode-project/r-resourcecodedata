@@ -6,17 +6,18 @@
 This a data-only R package. It contains the **Resourcecode** hindcast
 database configuration data, that is used to run the WWIIIⓇ model: nodes
 locations for both the sea-state parameters, examples of time series of
-1D and 2D surface elevation variance spectral density, etc. These are
+1D and 2D surface elevation variance spectral density and summary
+statistics computed on the whole covered area and time period. These are
 static data that will **never** be updated.
 
 For more on using these data, see the GitHub repository for the
-[resourcecode](https://github.com/Resourcecode-project/r-resourcecode)
+[Resourcecode](https://github.com/Resourcecode-project/r-resourcecode)
 package, which is built to interact with data in this package.
 
 ## Installation
 
 You can install the development version of `{resourcecodedata}` like so,
-thanks to the `{drat}`package:
+thanks to the `{drat}` package:
 
 ``` r
 install.packages("resourcecodedata",type = "source",repos = "resourcecode-project.github.io/drat")

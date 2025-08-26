@@ -20,6 +20,6 @@ rscd_triangles
 }
 \description{
 This data contains the triangles of the unstructured computational mesh.
-This will be mainly used for ploting purpose.
+This will be mainly used for plotting purpose.
 }
 \keyword{datasets}

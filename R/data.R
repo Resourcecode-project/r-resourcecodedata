@@ -48,7 +48,7 @@
 #' Resourcecode coastline
 #'
 #' This data contains the coastline used to run the RESOURCECODE hindcast.
-#' This will be mainly used for ploting purpose.
+#' This will be mainly used for plotting purpose.
 #'
 #' @format A data frame with 24403 rows and 3 columns:
 #' \describe{
@@ -63,7 +63,7 @@
 #'
 #' This data contains the coastline of the islands used to run the
 #' RESOURCECODE hindcast, as data separated from the mainland.
-#' This will be mainly used for ploting purpose.
+#' This will be mainly used for plotting purpose.
 #'
 #' @format A data frame with 24403 rows and 3 columns:
 #' \describe{
@@ -78,7 +78,7 @@
 #' Resourcecode triangles
 #'
 #' This data contains the triangles of the unstructured computational mesh.
-#' This will be mainly used for ploting purpose.
+#' This will be mainly used for plotting purpose.
 #'
 #' @format A matrix with 3 rows and 566506 columns:
 #' \describe{
@@ -127,7 +127,7 @@
 # In terms of directional discretization, 36 directions were used
 #' (equivalent to a directional resolution of 10°;
 #'
-#' @format A vector of length 36 with the directionnal bins
+#' @format A vector of length 36 with the directional bins
 #'
 #' @source User Manual of the RESOURCECODE database
 #' <https://archimer.ifremer.fr/doc/00751/86306/>
@@ -179,7 +179,7 @@
 #' Resourcecode 2D directional wave spectra
 #'
 #  Example of 2D directional spectral data.
-#' This data contains the time series of 1D wave spectral
+#' This data contains the time series of 2D wave spectral
 #' data at the 'Pierre noires (6200069) wave buoy from
 #' 01-01-1994 to 31-01-1994.
 #'
@@ -195,7 +195,7 @@
 #'   \item{sth1m}{Mean directional spreading from first spectral moment}
 #'   \item{sth2m}{Mean directional spreading from second spectral moment}
 #'   \item{freq}{Central frequency}
-#'   \item{dir}{Directionnal bins}
+#'   \item{dir}{Directional bins}
 #'   \item{forcings}{A data.frame with 6 variables:
 #'    \describe{
 #'      \item{time}{Time}
@@ -220,7 +220,7 @@
 #' @format A data.frame with columns:
 #' \describe{
 #'   \item{hs_mean}{Mean significant wave height}
-#'   \item{hs_max}{Maximal modeled significant wave height}
+#'   \item{hs_max}{Maximal modelled significant wave height}
 #'   \item{tp_mean}{Mean peak wave period}
 #'   \item{wind_speed_mean}{Mean wind speed at 10m height}
 #'   \item{wind_speed_max}{Maximal wind speed at 10m height}
@@ -232,5 +232,5 @@
 #'  }
 #'  @source User Manual of the RESOURCECODE database
 #' <https://archimer.ifremer.fr/doc/00751/86306/> and computations
-#' made by Nicolas Raillard on original netCDF files.
+#' computed by Nicolas Raillard from original netCDF files.
 "rscd_stats"

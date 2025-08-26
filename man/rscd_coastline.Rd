@@ -20,6 +20,6 @@ rscd_coastline
 }
 \description{
 This data contains the coastline used to run the RESOURCECODE hindcast.
-This will be mainly used for ploting purpose.
+This will be mainly used for plotting purpose.
 }
 \keyword{datasets}

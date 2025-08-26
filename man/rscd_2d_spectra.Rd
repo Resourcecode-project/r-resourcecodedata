@@ -17,7 +17,7 @@ A list with 9 elements:
 \item{sth1m}{Mean directional spreading from first spectral moment}
 \item{sth2m}{Mean directional spreading from second spectral moment}
 \item{freq}{Central frequency}
-\item{dir}{Directionnal bins}
+\item{dir}{Directional bins}
 \item{forcings}{A data.frame with 6 variables:
 \describe{
 \item{time}{Time}
@@ -38,7 +38,7 @@ User Manual of the RESOURCECODE database
 rscd_2d_spectra
 }
 \description{
-This data contains the time series of 1D wave spectral
+This data contains the time series of 2D wave spectral
 data at the 'Pierre noires (6200069) wave buoy from
 01-01-1994 to 31-01-1994.
 }

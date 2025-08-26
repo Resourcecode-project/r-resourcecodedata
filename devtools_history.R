@@ -77,14 +77,16 @@ usethis::use_pkgdown_github_pages()
 
 attachment::att_amend_desc(update.config = T)
 
+devtools::spell_check()
 devtools::document()
 devtools::run_examples()
 urlchecker::url_check()
 devtools::build_readme()
+
 devtools::install()
 
+devtools::check_win_release()
 
-devtools::build()
-devtools::build(binary = T)
+devtools::release()
 
 remotes::install_github("eddelbuettel/drat")

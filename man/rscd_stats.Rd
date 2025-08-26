@@ -8,7 +8,7 @@
 A data.frame with columns:
 \describe{
 \item{hs_mean}{Mean significant wave height}
-\item{hs_max}{Maximal modeled significant wave height}
+\item{hs_max}{Maximal modelled significant wave height}
 \item{tp_mean}{Mean peak wave period}
 \item{wind_speed_mean}{Mean wind speed at 10m height}
 \item{wind_speed_max}{Maximal wind speed at 10m height}
@@ -20,7 +20,7 @@ A data.frame with columns:
 }
 @source User Manual of the RESOURCECODE database
 \url{https://archimer.ifremer.fr/doc/00751/86306/} and computations
-made by Nicolas Raillard on original netCDF files.
+computed by Nicolas Raillard from original netCDF files.
 }
 \usage{
 rscd_stats

@@ -5,7 +5,7 @@
 \alias{rscd_dir}
 \title{Resourcecode directional bins}
 \format{
-A vector of length 36 with the directionnal bins
+A vector of length 36 with the directional bins
 }
 \source{
 User Manual of the RESOURCECODE database
