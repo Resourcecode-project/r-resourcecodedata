@@ -2,6 +2,7 @@
 
 - Add the upper and lower frequency for both 1D and 2D spectra.
 - Switch to version 1 to reflect the stability of the data provided by this package.
+- Remove the computed statistics to make the package smaller.
 
 # resourcecodedata 0.2.0
 
