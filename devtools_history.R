@@ -56,7 +56,7 @@ usethis::use_data(
   rscd_dir,
   rscd_1d_spectra,
   rscd_2d_spectra,
-  rscd_stats,
+  # rscd_stats,
   version = 3,
   overwrite = TRUE
 )
@@ -84,6 +84,8 @@ urlchecker::url_check()
 devtools::build_readme()
 
 devtools::install()
+
+devtools::build(binary = TRUE, manual =  TRUE)
 
 devtools::check_win_release()
 
