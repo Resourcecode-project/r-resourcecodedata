@@ -7,8 +7,7 @@ Authors@R:
 Description: Includes Resourcecode hindcast database (see
     <https://resourcecode.ifremer.fr>) configuration data: nodes locations
     for both the sea-state parameters and the spectra data; examples of
-    time series of 1D and 2D surface elevation variance spectral density;
-    summary statistics of sea-states.
+    time series of 1D and 2D surface elevation variance spectral density.
 License: GPL (>= 3)
 URL: https://github.com/Resourcecode-project/r-resourcecodedata/,
     https://resourcecode-project.r-universe.dev/resourcecodedata/,
