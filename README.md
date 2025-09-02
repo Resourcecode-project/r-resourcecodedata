@@ -1,6 +1,14 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
+<!-- badges: start -->
+
+[![resourcecodedata status
+badge](https://resourcecode-project.r-universe.dev/resourcecodedata/badges/version)](https://resourcecode-project.r-universe.dev/resourcecodedata)
+[![CRAN
+status](https://www.r-pkg.org/badges/version/resourcecodedata)](https://CRAN.R-project.org/package=resourcecodedata)
+<!-- badges: end -->
+
 # resourcecodedata
 
 This a data-only R package. It contains the **Resourcecode** hindcast
@@ -16,14 +24,14 @@ package, which is built to interact with data in this package.
 
 ## Installation
 
-You can install the development version of `{resourcecodedata}` like so,
-thanks to the `{drat}` package:
+The package is on CRAN so can be installed simply by:
 
 ``` r
-install.packages("resourcecodedata",type = "source",repos = "resourcecode-project.github.io/drat")
+install.packages("resourcecodedata")
 ```
 
-or from install from
+You can also install the development version of `{resourcecodedata}`
+from
 [r-universe](https://resourcecode-project.r-universe.dev/resourcecodedata):
 
 ``` r
