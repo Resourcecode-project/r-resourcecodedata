@@ -1,6 +1,6 @@
 Package: resourcecodedata
 Title: Resourcecode Database Configuration Data
-Version: 1.0.0
+Version: 1.0.0.9000
 Authors@R: 
     person("Nicolas", "Raillard", , "nicolas.raillard@ifremer.fr", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0003-3385-5104"))
