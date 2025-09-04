@@ -9,7 +9,7 @@ badge](https://resourcecode-project.r-universe.dev/resourcecodedata/badges/versi
 status](https://www.r-pkg.org/badges/version/resourcecodedata)](https://CRAN.R-project.org/package=resourcecodedata)
 <!-- badges: end -->
 
-# resourcecodedata
+# resourcecodedata <a href="https://resourcecode-project.github.io/r-resourcecodedata/"><img src="man/figures/logo.png" align="right" height="139" alt="resourcecodedata website" /></a>
 
 This a data-only R package. It contains the **Resourcecode** hindcast
 database configuration data, that is used to run the WWIIIⓇ model: nodes
